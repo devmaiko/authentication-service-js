@@ -4,10 +4,7 @@ Authentication Service is a Node.js microservice responsible for user authentica
 
 ## Features
 
-- User registration
 - User authentication (login)
-- Profile management (update user details)
-- Middleware for parameter validation
 
 ## Technologies Used
 
