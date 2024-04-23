@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3538d19-e628-4c74-aa49-9417c39279a0" name="Changes" comment="feat(js): change s">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/auth/authController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware/auth/authParamsValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/auth/authRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/users/userService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/auth/auth.e2e-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20240417130458-create-user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/__tests__/users.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/__tests__/auth.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/users/userController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleware/auth/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleware/users/userParamsValidator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/userModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/users/userRoutes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/users/user.e2e-spec.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2fE5PVSiDpbxSVcYC4PxelwIAOg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/guilhermesantos/WebstormProjects/node-template-js.git/src/controllers&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/guilhermesantos/WebstormProjects/authorization-service/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/controllers" />
+      <recent name="$PROJECT_DIR$/src/models" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/controllers/__tests__" />
+      <recent name="$PROJECT_DIR$/src/middleware/auth" />
+      <recent name="$PROJECT_DIR$/src/middleware/users" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.Auth API.should get token">
+    <configuration name="Auth API" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/users/user.e2e-spec.js" />
+      <test-names>
+        <test-name value="Auth API" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Auth API.should get token" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/users/user.e2e-spec.js" />
+      <test-names>
+        <test-name value="Auth API" />
+        <test-name value="should get token" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthController" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/controllers/__tests__/auth.test.js" />
+      <test-names>
+        <test-name value="AuthController" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthController.auth.it should not generate token" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/controllers/__tests__/auth.test.js" />
+      <test-names>
+        <test-name value="AuthController" />
+        <test-name value="auth" />
+        <test-name value="it should not generate token" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="user.e2e-spec.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/tests/users/user.e2e-spec.js" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="$PROJECT_DIR$/gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="Default" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="$PROJECT_DIR$/swagger.json" />
+      <method v="2" />
+    </configuration>
+    <configuration name="swagger.json" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="$PROJECT_DIR$/gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="Default" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="$PROJECT_DIR$/swagger.json" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Auth API.should get token" />
+        <item itemvalue="Jest.Auth API" />
+        <item itemvalue="Jest.user.e2e-spec.js" />
+        <item itemvalue="Jest.AuthController.auth.it should not generate token" />
+        <item itemvalue="Jest.AuthController" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3538d19-e628-4c74-aa49-9417c39279a0" name="Changes" comment="" />
+      <created>1713353372295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713353372295</updated>
+      <workItem from="1713353373474" duration="480000" />
+      <workItem from="1713353859990" duration="33000" />
+      <workItem from="1713353914267" duration="18851000" />
+      <workItem from="1713400910344" duration="3436000" />
+      <workItem from="1713405444840" duration="143000" />
+      <workItem from="1713440194967" duration="1558000" />
+      <workItem from="1713528866354" duration="231000" />
+      <workItem from="1713539453576" duration="8108000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat(js): first version of node template in JS">
+      <created>1713405571652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713405571652</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(js): first version of node template in JS">
+      <created>1713440972162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713440972162</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat(js): first version of node template in JS">
+      <created>1713441360072</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713441360072</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(js): first version of node template in JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(js): first version of node template in JS" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/node_template_js_git$UserController.info" NAME="UserController Coverage Results" MODIFIED="1713404310232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
