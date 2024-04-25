@@ -1,4 +1,5 @@
-# Authentication Service  
+# Authentication Service 
+[![JavaScript](https://skillicons.dev/icons?i=nodejs,express)](https://skillicons.dev)
 
 Authentication Service is a Node.js microservice responsible for user authentication. It interacts with the users-service microservice to handle user-related operations such as registration, login, and profile management. This service follows a microservices architecture and includes middleware to validate request parameters.
 
